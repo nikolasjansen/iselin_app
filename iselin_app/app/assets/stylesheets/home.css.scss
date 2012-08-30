@@ -16,7 +16,10 @@ body {
     color: white;
   }
 
-  a  {color: #03c}
+  a  {
+	color: #03c
+  }
+
   a:hover {
     background-color: #03c;
     color: white;
@@ -32,41 +35,46 @@ body {
     margin-right: auto;
   }
 
-  #header {
+  #elementWrapper {
 	float: left;
+	width: 952px;
+  }
+
+  #header {
     background-color: #111;
     border: 1px solid #222;
     border-top: none;
-    width: 950px;
   }
 
   #menu {
-	display: block;
-    border: 1px solid #222;
-    border-top: none;
-    width: 950px;
+
   }
 
   #menu ul {
-    margin: 0; 
 	list-style-type: none; 
-	list-style-image: none;
+    margin: 0;
+ 	padding: 0;
   }
 
   #menu li {
-    display: inline; 
+    float: left;
   }
 
   #menu ul li a {
-    text-decoration:none;  
+	display: block;
+	border: 1px solid #222;
+    border-top: none; 
 	padding: 5px 20px 5px 20px; 
-	color: blue;
-	background: pink;
+	background: #000;
+	width: 196px;
+	text-decoration: none; 
+	text-align: center;
+	color: white;
   }
 
   #menu ul li a:hover {
-	color: purple;
-	background: yellow; 
+	color: white;
+	background: gray; 
   }
 
   #content {
