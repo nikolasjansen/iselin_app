@@ -1,0 +1,169 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+    margin: 0;
+    margin-bottom: 25px;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+    font-size: 13px;
+    color: #333;
+  }
+
+  h1 {
+    font-size: 28px;
+    color: white;
+  }
+
+  a  {color: #03c}
+  a:hover {
+    background-color: #03c;
+    color: white;
+    text-decoration: none;
+  }
+
+
+  #page {
+    background-color: #000000;
+    width: 1000px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  #header {
+	float: left;
+    background-color: #111;
+    border: 1px solid #222;
+    border-top: none;
+    width: 950px;
+  }
+
+  #menu {
+	display: block;
+    border: 1px solid #222;
+    border-top: none;
+    width: 950px;
+  }
+
+  #menu ul {
+    margin: 0; 
+	list-style-type: none; 
+	list-style-image: none;
+  }
+
+  #menu li {
+    display: inline; 
+  }
+
+  #menu ul li a {
+    text-decoration:none;  
+	padding: 5px 20px 5px 20px; 
+	color: blue;
+	background: pink;
+  }
+
+  #menu ul li a:hover {
+	color: purple;
+	background: yellow; 
+  }
+
+  #content {
+    float: left;
+    background-color: #111;
+    border: 1px solid #222;
+    border-top: none;
+    padding: 25px;
+    width: 900px;
+  }
+
+  #footer {
+    clear: both;
+  }
+
+  #about, #getting-started {
+    padding-left: 70px;
+    padding-right: 30px;
+  }
+
+  #about h3 {
+    margin: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+
+  #about-content {
+    background-color: #ffd;
+    border: 1px solid #fc0;
+    margin-left: -55px;
+    margin-right: -10px;
+  }
+  #about-content table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 11px;
+    border-collapse: collapse;
+  }
+  #about-content td {
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+  }
+  #about-content td.name  {color: #555}
+  #about-content td.value {color: #000}
+
+  #about-content ul {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  #about-content.failure {
+    background-color: #fcc;
+    border: 1px solid #f00;
+  }
+  #about-content.failure p {
+    margin: 0;
+    padding: 10px;
+  }
+
+
+  #getting-started {
+    border-top: 1px solid #ccc;
+    margin-top: 25px;
+    padding-top: 15px;
+  }
+  #getting-started h1 {
+    margin: 0;
+    font-size: 20px;
+  }
+  #getting-started h2 {
+    margin: 0;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333;
+    margin-bottom: 25px;
+  }
+  #getting-started ol {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  #getting-started li {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 25px;
+  }
+  #getting-started li h2 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 18px;
+    color: #333;
+  }
+  #getting-started li p {
+    color: #555;
+    font-size: 13px;
+  }
+
+  .filename {
+    font-style: italic;
+  }
