@@ -1,4 +1,4 @@
 class HomeController < ApplicationController
-  def _menu
+  def about
   end
 end

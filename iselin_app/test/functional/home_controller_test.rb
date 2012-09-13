@@ -1,8 +1,8 @@
 require 'test_helper'
 
 class HomeControllerTest < ActionController::TestCase
-  test "should get _menu" do
-    get :_menu
+  test "should get about" do
+    get :about
     assert_response :success
   end
 
