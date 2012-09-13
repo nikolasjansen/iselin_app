@@ -3,14 +3,7 @@
 		<div id="header">
 			<%= image_tag("header.jpg", :alt => "Header") %>
 		</div>
-		<div id="menu">
-			<ul>
-				<li><%= link_to "Home", root_path %></li>
-				<li><%= link_to "Portofolio", portofolio_path %></li>
-				<li><a href="#">About</a></li>
-				<li><%= link_to "Contact", contact_path %></li>
-			</ul>
-		</div>
+		<%= render "menu" %>
 		<div id="content">
 			<div id="about">
 				<h3><a href="rails/info/properties" onclick="about(); return false">About your application&rsquo;s environment</a></h3>
