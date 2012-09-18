@@ -133,8 +133,7 @@ a:hover {
 
 #slides {
 	position:absolute;
-	margin-top:15px;
-	margin-left:104px;
+	margin-left: 104px;
 	z-index:100;
 }
 
@@ -147,7 +146,7 @@ a:hover {
 
 .slides_container {
 	width:595px;
-	height: 420px;
+	height: 470px;
 	overflow:hidden;
 	position:relative;
 	display:none;
@@ -177,7 +176,7 @@ a:hover {
 
 #slides .next,#slides .prev {
 	position:absolute;
-	margin-top:-220px;
+	margin-top:0px;
 	margin-left:-39px;
 	width:24px;
 	height:43px;
@@ -217,6 +216,55 @@ a:hover {
 
 .pagination li.current a {
 	background-position:0 -12px;
+}
+
+/*
+	Gallery
+*/
+
+#gallerywrapper {
+	width: 600px;
+	height: 500px;
+	position: relative;
+}
+
+#gallery {
+	position:absolute;
+	margin-top:15px;
+	margin-left:104px;
+	z-index:100;
+}
+
+.gallery_container {
+	width:595px;
+	height: 420px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+.gallery_container a {
+	width:595px;
+	height:470px;
+	display:block;
+}
+
+.gallery_container a img {
+	display:block;
+}
+
+#gallery .next,#gallery .prev {
+	position:absolute;
+	margin-top:-100px;
+	margin-left:-39px;
+	width:24px;
+	height:43px;
+	display:block;
+	z-index:101;
+}
+
+#gallery .next {
+	margin-left: 610px;
 }
 
 #footer {

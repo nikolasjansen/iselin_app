@@ -6,7 +6,9 @@
 				<script type="text/javascript">
 				$(function(){
 					$("#slides").slides({
-						effect: 'slide, fade',
+						effect: 'fade',
+						generatePagination: false,
+						play: 5000
 					});
 				});
 				</script>
@@ -16,17 +18,15 @@
 							<div class="slides_container">
 								<% @images.each do |image|%>
 								<div>
-									<%= image_tag(image, :alt => "image", :style => "margin-top:") %>
+									<%= image_tag(image, :alt => "image", :style => "margin-top:"+(250 - (getHeight(image)/2)).to_s+"px") %>
 								</div>
 								<% end %>
 							</div>
-							<a href="#" class="prev"><%= image_tag("arrow-prev.png", :alt => "Arrow Prev", :width => "24", :height => "43") %></a>
-							<a href="#" class="next"><%= image_tag("arrow-next.png", :alt => "Arrow Next", :width => "24", :height => "43") %></a>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div id="footer">&nbsp;</div>
+	<div id="footer"></div>
 </div>

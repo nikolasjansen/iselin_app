@@ -14,12 +14,8 @@ class HomeController < ApplicationController
   end
   
   def portofolio
-    
-  end
-  
-  def getHeight(picture)
-    image = ImageMagick::Image.open(picture.path)
-    return image[:width].to_i
+    @images = Dir['app/assets/images/frontpage_slideshow/*.*'].map {|f| f.sub('app/assets/images/','') }
+        
   end
   
 end
