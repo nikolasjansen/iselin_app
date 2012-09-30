@@ -121,6 +121,12 @@ a:hover {
 	padding-left: 30px;
 }
 
+#contactpicture {
+	width: 35%;
+	float: right;
+	padding-left: 30px;
+}
+
 #frame {
 	position:absolute;
 	background-color: black;
@@ -300,6 +306,7 @@ a:hover {
 }
 
 #footer {
+	text-align: center;
     clear: both;
 }
 

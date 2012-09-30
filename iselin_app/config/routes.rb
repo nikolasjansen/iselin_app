@@ -1,10 +1,7 @@
 IselinApp::Application.routes.draw do
   get "home/_footer"
-
   get "home/contact"
-
   get "home/_gallery"
-
   get "home/about"
   get "home/_menu"
   get "home/portofolio"
@@ -13,6 +10,7 @@ IselinApp::Application.routes.draw do
   root :to => "home#index"
   match 'portofolio' => "home#portofolio"
   match 'about' => "home#about"
+  match 'contact' => "home#contact"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

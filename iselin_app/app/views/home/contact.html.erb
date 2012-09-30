@@ -1,2 +1,29 @@
-<h1>Home#contact</h1>
-<p>Find me in app/views/home/contact.html.erb</p>
+<div id="page">
+	<div id="elementWrapper">
+		<%= render "menu" %>
+		<div id="content">
+			<div id="contentwrapper">
+				<%= image_tag("contact/contact.jpg", :alt => "Contact", :id => "contactpicture") %>
+				<h1>Contact</h1>
+				<p>
+					Mail: <a href="mailto:iselin.j@online.no">iselin.j@online.no</a>
+				</p>
+				<p>
+					Phone: +47 48 06 10 56 
+				</p>
+				<p>
+					<a href="https://twitter.com/iselinjansen" id="twitterBadge" class="twitter-follow-button" data-show-count="false">Follow @iselinjansen</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					<br/>
+					<a target="_blank" href="http://tumblr.com/follow/iselinjansen" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://tumblr.com']);"><img src="http://i1076.photobucket.com/albums/w458/mrtumblring/Button4-7.png" id="tumblrBadge" title="Tumblr Follow Me" border="0" /></a><br />
+					<br/>
+				</p>
+				<script>
+				$('#tumblrBadge').css('width', '138px');
+				$('#tumblrBadge').css('margin-left', '-2px');
+				</script>
+			</div>
+		</div>
+	</div>
+	<div id="footer"><%= render "footer" %></div>
+</div>
