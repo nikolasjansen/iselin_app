@@ -1,4 +1,8 @@
 IselinApp::Application.routes.draw do
+  get "home/_footer"
+
+  get "home/contact"
+
   get "home/_gallery"
 
   get "home/about"
