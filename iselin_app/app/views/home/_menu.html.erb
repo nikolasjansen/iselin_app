@@ -1,13 +1,34 @@
 <div id="header">
 	<%= image_tag("header.jpg", :alt => "Header") %>
 </div>
-<div id="menu">
-	<nav>
-		<ul>
-			<li><%= link_to "Home", root_path %></li>
-			<li><%= link_to "Portofolio", portofolio_path %></li>
-			<li><%= link_to "About", about_path %></li>
-			<li><%= link_to "Contact", contact_path %></li>
-		</ul>
-	</nav>
+<script>
+$(document).ready(function(){
+	
+	var top = $('#menu').offset().top;
+	console.log(top);
+	
+	$(window).scroll(function (){
+		var y = $(window).scrollTop();
+		
+		if(y >= top) {
+			$('#menu').addClass('fixed');
+			$('#menuWrapper').css('top', '0px');
+		}else{
+			$('#menu').removeClass('fixed');
+			$('#menuWrapper').css('top', '374px');
+		}
+	});
+});
+</script>
+<div id="menuWrapper">
+	<div id="menu">
+		<nav>
+			<ul>
+				<li><%= link_to "Home", root_path %></li>
+				<li><%= link_to "Portofolio", portofolio_path %></li>
+				<li><%= link_to "About", about_path %></li>
+				<li><%= link_to "Contact", contact_path %></li>
+			</ul>
+		</nav>
+	</div>
 </div>

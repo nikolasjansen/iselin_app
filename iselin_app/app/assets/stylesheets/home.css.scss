@@ -55,6 +55,16 @@ a:hover {
     border-top: none;
 }
 
+#menuWrapper {
+	top: 374px;
+	position: absolute;
+	z-index:150;
+}
+
+#menuWrapper .fixed{
+	position: fixed;
+}
+
 #menu {
 
 }
@@ -92,8 +102,8 @@ a:hover {
     border: 1px solid #222;
     border-top: none;
     padding: 25px;
+	padding-top: 52px;
     width: 900px;
-	height: auto;
 }
 
 #galContent {
@@ -144,6 +154,7 @@ a:hover {
 	border: 1px solid #222;
 	width:800px;
 	margin-left: -20px;
+	margin-top: 27px;
 }
 
 /*
@@ -306,6 +317,7 @@ a:hover {
 }
 
 #footer {
+	padding-top: 5px;
 	text-align: center;
     clear: both;
 }
