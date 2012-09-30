@@ -15,6 +15,8 @@ class HomeController < ApplicationController
   
   def portofolio
     @images = Dir['app/assets/images/frontpage_slideshow/*.*'].map {|f| f.sub('app/assets/images/','') }
+    
+    @gallery = Dir['app/assets/images/gallery/*'].map
         
   end
   

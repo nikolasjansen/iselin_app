@@ -1,9 +1,8 @@
 <div id="page">
 	<div id="elementWrapper">
 		<%= render "menu" %>
-		<div id="content">
-			<div id="contentwrapper">
-				<h1>Portofolio</h1>			
+		<div id="galContent">
+			<div id="contentwrapper">		
 				<script type="text/javascript">
 				$(function(){
 					$("#gallery").slides({
@@ -15,7 +14,7 @@
 					});
 				});
 				</script>
-				<div id="gallerywrapper">
+				<div id="gallerywrapper" style="display: none">
 					<div id="frame">
 						<div id="gallery">
 							<div class="gallery_container">
@@ -28,6 +27,42 @@
 							<a href="#" class="prev"><%= image_tag("arrow-prev.png", :alt => "Arrow Prev", :width => "24", :height => "43") %></a>
 							<a href="#" class="next"><%= image_tag("arrow-next.png", :alt => "Arrow Next", :width => "24", :height => "43") %></a>
 						</div>
+					</div>
+				</div>
+				<div id="gallerywrapper">
+					<div id="galFrame">
+						<table id="gallery_table">
+							<tr>
+							<% col = 0 %>
+							<% rows = 1 %>
+							<% @gallery.each do |folder|%>
+								<td>
+								<% galImg = nil %>
+								<% galImgFolder = Dir[folder+"/*"].map %>
+								<% galImgFolder.each do |file|%>
+									<% if file.include?("forside_") %>
+										<% galImg = file %>
+									<% end %>
+								<% end %>
+								<%= image_tag(galImg.sub('app/assets/images/',''), :alt => "image") %>
+								<br>
+								<%= folder.sub('app/assets/images/gallery/','').to_s %>
+								</td>
+								<% if col == 1 %>
+									<% col = 0 %>
+									<% rows = rows + 1 %>
+									</tr>
+									<tr>
+								<% else %>
+									<% col = col + 1 %>
+								<% end %>
+							<% end %>
+							<script> 
+								$('#galFrame').css('height', '<%= rows.to_s %>' * 330 + "px");
+								$('#galContent').css('height', ('<%= rows.to_s %>' * 330)+30 + "px");
+							</script>
+							</tr>
+						</table>
 					</div>
 				</div>
 			</div>
