@@ -72,7 +72,6 @@ $(document).ready(function() {
 	<div id="elementWrapper">
 		<div id="galContent">
 			<div id="contentwrapper">		
-				<a href="#dialog" name="modal">Simple Modal Window</a>
 				<div id="gallerywrapper">
 					<div id="galFrame">
 						<table id="gallery_table">
@@ -80,7 +79,7 @@ $(document).ready(function() {
 							<% col = 0 %>
 							<% rows = 1 %>
 							<% @gallery.each do |folder|%>
-								<td>
+								<td><a href="#dialog" name="modal" style="text-decoration: none">
 								<% galImg = nil %>
 								<% galImgFolder = Dir[folder+"/*"].map %>
 								<% galImgFolder.each do |file|%>
@@ -89,9 +88,11 @@ $(document).ready(function() {
 									<% end %>
 								<% end %>
 								<%= image_tag(galImg.sub('app/assets/images/',''), :alt => "image") %>
+								</a>
 								<br>
-								<%= folder.sub('app/assets/images/gallery/','').to_s %>
-								</td>
+								<a href="#dialog" name="modal">
+								<%= folder.sub('app/assets/images/gallery/','').to_s.strip %>
+								</a></td>
 								<% if col == 1 %>
 									<% col = 0 %>
 									<% rows = rows + 1 %>
