@@ -17,6 +17,7 @@
 * See the License for the specific language governing permissions and
 * limitations under the License.
 */
+
 (function($){
 	$.fn.slides = function( option ) {
 		// override defaults with specified option
@@ -429,6 +430,21 @@
 					 pause();
 				}
 				animate('prev', effect);
+			});
+			
+			
+			// keyboardpresses
+			$(document).keydown(function(e) {
+				if($('.next').length != 0 && $('.prev').length != 0){
+			    	switch (e.which) {
+			        	case 37:
+			            	animate('prev', effect);
+			            	break;
+			        	case 39:
+			            	animate('next', effect);
+			            	break;
+					}
+			    }
 			});
 			
 			// generate pagination

@@ -1,2 +1,29 @@
-<h1>Home#_gallery</h1>
-<p>Find me in app/views/home/_gallery.html.erb</p>
+<script type="text/javascript">
+$(function(){
+	$("#gallery").slides({
+		effect: 'fade',
+		container: 'gallery_container',
+		play: 5000,
+		pause: 2500,
+		hoverPause: true
+	});
+});
+</script>
+<div id="gallerywrapper">
+	<div id="frame">
+		<div style="float: right; padding: 5px">
+			<a href="#" class="close">Close</a>
+		</div>
+		<div id="gallery">
+			<div class="gallery_container">
+				<% @images.each do |image|%>
+				<div>
+					<%= image_tag(image, :alt => "image", :style => "margin-top:"+(210 - (getHeight(image)/2)).to_s+"px") %>
+				</div>
+				<% end %>
+			</div>
+			<a href="#" class="prev"><%= image_tag("arrow-prev.png", :alt => "Arrow Prev", :width => "24", :height => "43") %></a>
+			<a href="#" class="next"><%= image_tag("arrow-next.png", :alt => "Arrow Next", :width => "24", :height => "43") %></a>
+		</div>
+	</div>
+</div>

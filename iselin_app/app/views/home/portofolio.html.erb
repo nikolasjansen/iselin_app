@@ -1,34 +1,78 @@
+<script>
+ 
+$(document).ready(function() {  
+
+ 	function closeWindow(){
+		$('#mask, .window').hide();
+	}
+
+    //select all the a tag with name equal to modal
+    $('a[name=modal]').click(function(e) {
+        //Cancel the link behavior
+        e.preventDefault();
+        //Get the A tag
+        var id = $(this).attr('href');
+     
+        //Get the screen height and width
+        var maskHeight = $(document).height();
+        var maskWidth = $(window).width();
+     
+        //Set height and width to mask to fill up the whole screen
+        $('#mask').css({'width':maskWidth,'height':maskHeight});
+         
+        //transition effect     
+        $('#mask').fadeIn(1000);    
+        $('#mask').fadeTo("slow",0.8);  
+     
+        //Get the window height and width
+        var winH = $(window).height();
+        var winW = $(window).width();
+      
+        //Set the popup window to center
+        $(id).css('top',  winH/2-$('#frame').height()/2);
+        $(id).css('left', winW/2-$('#frame').width()/2);
+     
+        //transition effect
+        $(id).fadeIn(2000); 
+     
+    });
+     
+    //if close button is clicked
+    $('.window .close').click(function (e) {
+        //Cancel the link behavior
+        e.preventDefault();
+		closeWindow();
+    });     
+     
+    //if mask is clicked
+    $('#mask').click(function () {
+        closeWindow();
+    });
+
+	//key listner for escape to hide window
+	$(document).keyup(function(e){
+		switch(e.which){
+			case 27:
+	        	closeWindow();
+	        	break;
+		}
+	});       
+     
+});
+</script>
+<div id="boxes">
+    <div id="dialog" class="window">
+        <%= render "gallery", :remote => true %> 
+ 		<br>
+    </div>
+    <div id="mask"></div>
+</div>
 <div id="page">
 	<%= render "menu" %>
 	<div id="elementWrapper">
 		<div id="galContent">
 			<div id="contentwrapper">		
-				<script type="text/javascript">
-				$(function(){
-					$("#gallery").slides({
-						effect: 'fade',
-						container: 'gallery_container',
-						play: 5000,
-						pause: 2500,
-						hoverPause: true
-					});
-				});
-				</script>
-				<div id="gallerywrapper" style="display: none">
-					<div id="frame">
-						<div id="gallery">
-							<div class="gallery_container">
-								<% @images.each do |image|%>
-								<div>
-									<%= image_tag(image, :alt => "image", :style => "margin-top:"+(210 - (getHeight(image)/2)).to_s+"px") %>
-								</div>
-								<% end %>
-							</div>
-							<a href="#" class="prev"><%= image_tag("arrow-prev.png", :alt => "Arrow Prev", :width => "24", :height => "43") %></a>
-							<a href="#" class="next"><%= image_tag("arrow-next.png", :alt => "Arrow Next", :width => "24", :height => "43") %></a>
-						</div>
-					</div>
-				</div>
+				<a href="#dialog" name="modal">Simple Modal Window</a>
 				<div id="gallerywrapper">
 					<div id="galFrame">
 						<table id="gallery_table">
