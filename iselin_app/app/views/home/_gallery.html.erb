@@ -28,9 +28,11 @@ $(document).ready(function(){
 		<div id="gallery">
 			<div class="gallery_container">
 				<% @images.each do |image|%>
-				<div>
-					<%= image_tag(image, :alt => "image", :style => "margin-top:"+(210 - (getHeight(image)/2)).to_s+"px") %>
-				</div>
+					<% if image.exclude?("forside_") %>
+						<div>
+							<%= image_tag(image, :alt => "image", :style => "margin-top:"+(210 - (getHeight(image)/2)).to_s+"px") %>
+						</div>		
+					<% end %>
 				<% end %>
 			</div>
 			<a href="#" class="prev"><%= image_tag("arrow-prev.png", :alt => "Arrow Prev", :width => "24", :height => "43") %></a>
