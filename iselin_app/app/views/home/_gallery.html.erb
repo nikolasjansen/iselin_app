@@ -8,12 +8,23 @@ $(function(){
 		hoverPause: true
 	});
 });
+$(document).ready(function(){
+	function closeWindow(){
+		$(parent.document).find('#mask, .window').hide();
+		$(parent.document).find('.galleryIframe').attr('src', "");
+		$(parent.document).find('.galleryIframe').empty();
+	}
+	$(document).keyup(function(e){
+		switch(e.which){
+			case 27:
+	       		closeWindow();
+	       		break;
+		}
+	});
+});
 </script>
 <div id="gallerywrapper">
-	<div id="frame">
-		<div style="float: right; padding: 5px">
-			<a href="#" class="close">Close</a>
-		</div>
+	<div id="windowFrame">
 		<div id="gallery">
 			<div class="gallery_container">
 				<% @images.each do |image|%>

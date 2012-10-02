@@ -4,10 +4,21 @@ $(document).ready(function() {
 
  	function closeWindow(){
 		$('#mask, .window').hide();
+		$('.galleryIframe').attr('src', "");
+		$('.galleryIframe').empty();
+	}
+	
+	function setFocusThickboxIframe() {
+	    var iframe = $(".galleryIframe")[0];
+	    iframe.contentWindow.focus();
 	}
 
     //select all the a tag with name equal to modal
     $('a[name=modal]').click(function(e) {
+		
+		var gallery_url = $(this).attr('id');
+		$('.galleryIframe').attr('src', "<%= url_for 'gallery' %>" + "?path=" + gallery_url);
+		
         //Cancel the link behavior
         e.preventDefault();
         //Get the A tag
@@ -21,8 +32,8 @@ $(document).ready(function() {
         $('#mask').css({'width':maskWidth,'height':maskHeight});
          
         //transition effect     
-        $('#mask').fadeIn(1000);    
-        $('#mask').fadeTo("slow",0.8);  
+        $('#mask').fadeTo("slow",0.9);
+        $('#mask').fadeIn(1000);      
      
         //Get the window height and width
         var winH = $(window).height();
@@ -33,7 +44,10 @@ $(document).ready(function() {
         $(id).css('left', winW/2-$('#frame').width()/2);
      
         //transition effect
-        $(id).fadeIn(2000); 
+        $(id).fadeIn(1000); 
+
+		//focus on iframe for key-events to work
+		setTimeout(setFocusThickboxIframe, 100);
      
     });
      
@@ -48,22 +62,24 @@ $(document).ready(function() {
     $('#mask').click(function () {
         closeWindow();
     });
-
-	//key listner for escape to hide window
+	
 	$(document).keyup(function(e){
 		switch(e.which){
 			case 27:
 	        	closeWindow();
 	        	break;
 		}
-	});       
+	});
      
 });
 </script>
 <div id="boxes">
     <div id="dialog" class="window">
-        <%= render "gallery", :remote => true %> 
- 		<br>
+		<div style="float: right; padding: 5px; left: 755px; z-index: 10000; position: absolute;">
+			<a href="#" class="close">Close</a>
+		</div>
+		<iframe id="frame" name="galleryPopupIframe" style="z-index: 9999" frameborder="0" scrolling="no" class="galleryIframe" wmode="Opaque" src="">
+		</iframe>
     </div>
     <div id="mask"></div>
 </div>
@@ -79,18 +95,18 @@ $(document).ready(function() {
 							<% col = 0 %>
 							<% rows = 1 %>
 							<% @gallery.each do |folder|%>
-								<td><a href="#dialog" name="modal" style="text-decoration: none">
+								<td><a href="#dialog" name="modal" id="<%= folder %>" style="text-decoration: none">
 								<% galImg = nil %>
 								<% galImgFolder = Dir[folder+"/*"].map %>
 								<% galImgFolder.each do |file|%>
 									<% if file.include?("forside_") %>
-										<% galImg = file %>
+										<% galImg = file %>		
 									<% end %>
 								<% end %>
 								<%= image_tag(galImg.sub('app/assets/images/',''), :alt => "image") %>
 								</a>
 								<br>
-								<a href="#dialog" name="modal">
+								<a href="#dialog" id="<%= folder %>" name="modal">
 								<%= folder.sub('app/assets/images/gallery/','').to_s.strip %>
 								</a></td>
 								<% if col == 1 %>

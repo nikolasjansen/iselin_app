@@ -147,6 +147,15 @@ a:hover {
 	margin-left: -20px;
 }
 
+#windowFrame {
+	position:absolute;
+	background-color: black;
+	z-index:9999;
+	border: 1px solid #222;
+	width:800px;
+	height:500px;
+}
+
 #galFrame {
 	position:absolute;
 	background-color: black;
@@ -317,26 +326,27 @@ a:hover {
 }
 
 #mask {
-  position:absolute;
-  z-index:9000;
-  background-color:#fff;
-  display:none;
+	position:absolute;
+	z-index:9000;
+	background-color:#000;
+	display:none;
 }
    
 #boxes .window {
-  position:fixed;
-  width:440px;
-  height:200px;
-  display:none;
-  z-index:9999;
-  padding:20px;
+	position:fixed;
+	width:440px;
+	height:200px;
+	display:none;
+	z-index:9999;
+	padding:20px;
 }
  
  
 /* Customize your modal window here, you can add background image too */
 #boxes #dialog {
-  width:375px; 
-  height:203px;
+	width:800px; 
+	height:500px;
+	margin-left: -20px;
 }
 
 #footer {

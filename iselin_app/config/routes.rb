@@ -11,6 +11,7 @@ IselinApp::Application.routes.draw do
   match 'portofolio' => "home#portofolio"
   match 'about' => "home#about"
   match 'contact' => "home#contact"
+  match 'gallery' => "home#_gallery"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

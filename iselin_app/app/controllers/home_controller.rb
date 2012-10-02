@@ -20,4 +20,9 @@ class HomeController < ApplicationController
         
   end
   
+  def _gallery
+    path = params[:path]
+    @images = Dir[path.to_s+'/*.*'].map {|f| f.sub('app/assets/images/','') }
+  end
+  
 end
