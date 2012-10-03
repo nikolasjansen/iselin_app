@@ -238,29 +238,32 @@ a:hover {
 */
 
 .pagination {
-	margin:26px auto 0;
-	width:100px;
+	border-top: 1px solid #222;
+	margin:2px auto 0;
+	padding: 0px;
+}
+
+.scrollPageination {
+	overflow: auto;
 }
 
 .pagination li {
 	float:left;
 	margin:0 1px;
 	list-style:none;
+	background: black;
 }
 
 .pagination li a {
+	padding: 2px;
 	display:block;
-	width:12px;
-	height:0;
-	padding-top:12px;
-	background-image:url(../assets/pagination.png);
-	background-position:0 0;
 	float:left;
 	overflow:hidden;
+	outline: none;
 }
 
-.pagination li.current a {
-	background-position:0 -12px;
+.pagination li.current {
+	background: gray;
 }
 
 /*

@@ -14,6 +14,7 @@ $(document).ready(function(){
 		$(parent.document).find('.galleryIframe').attr('src', "");
 		$(parent.document).find('.galleryIframe').empty();
 	}
+	
 	$(document).keyup(function(e){
 		switch(e.which){
 			case 27:
@@ -21,6 +22,28 @@ $(document).ready(function(){
 	       		break;
 		}
 	});
+	var windowWidth = $(window).width();
+	var windowHeight = $(window).height();
+	
+	//setup of pagination
+	$('.pagination').wrap('<div class="scrollPageination" />');
+	$('.scrollPageination').css('width', windowWidth);
+	$('.scrollPageination').css('margin-left', -((windowWidth-$('.gallery_container').width())/2).toFixed(0)-1);
+
+	var squareSide = windowHeight-($('.gallery_container').height() + parseInt($('#gallery').css('margin-top'), 10) + parseInt($('.pagination').css('margin-top'), 10)*2);
+	var numberOfChildren = $('.pagination').children().length;
+	
+	$('.pagination li').css('width', squareSide);
+	$('.pagination li').css('height', squareSide);
+	$('.pagination').css('width', (squareSide + parseInt($('.pagination li').css('margin'), 10) + 2) * numberOfChildren);
+	
+	//replacing pictures in pagination
+	$('.pagination li').each(function(e){
+		var listElement = $(this);
+		var thumbnail = $('.thumbnails').children().first();
+		listElement.find('a:first').contents().replaceWith(thumbnail);
+	});
+	
 });
 </script>
 <div id="gallerywrapper">
@@ -28,7 +51,7 @@ $(document).ready(function(){
 		<div id="gallery">
 			<div class="gallery_container">
 				<% @images.each do |image|%>
-					<% if image.exclude?("forside_") %>
+					<% if image.exclude?("forside_") && image.exclude?("thumbnails") %>
 						<div>
 							<%= image_tag(image, :alt => "image", :style => "margin-top:"+(210 - (getHeight(image)/2)).to_s+"px") %>
 						</div>		
@@ -39,4 +62,9 @@ $(document).ready(function(){
 			<a href="#" class="next"><%= image_tag("arrow-next.png", :alt => "Arrow Next", :width => "24", :height => "43") %></a>
 		</div>
 	</div>
+</div>
+<div class="thumbnails" style="display: none">
+	<% @thumbnails.each do |thumbnail|%>
+		<%= image_tag(thumbnail, :alt => "thumbnail") %>
+	<% end %>
 </div>
