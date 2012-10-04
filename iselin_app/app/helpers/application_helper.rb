@@ -11,4 +11,12 @@ module ApplicationHelper
   
   end
   
+  def getWidth(picture)
+  
+    image = Magick::Image.read('app/assets/images/'+picture).first
+
+    return image.columns
+  
+  end
+  
 end

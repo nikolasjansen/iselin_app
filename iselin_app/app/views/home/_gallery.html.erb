@@ -53,7 +53,7 @@ $(document).ready(function(){
 				<% @images.each do |image|%>
 					<% if image.exclude?("forside_") && image.exclude?("thumbnails") %>
 						<div>
-							<%= image_tag(image, :alt => "image", :style => "margin-top:"+(210 - (getHeight(image)/2)).to_s+"px") %>
+							<%= image_tag(image, :alt => "image", :style => "margin-top:"+((420 - getHeight(image))/2).to_s+"px;" + "margin-left: "+ ((595-getWidth(image))/2).to_s + "px") %>
 						</div>		
 					<% end %>
 				<% end %>
@@ -65,6 +65,6 @@ $(document).ready(function(){
 </div>
 <div class="thumbnails" style="display: none">
 	<% @thumbnails.each do |thumbnail|%>
-		<%= image_tag(thumbnail, :alt => "thumbnail") %>
+		<%= image_tag(thumbnail, :alt => "thumbnail", :style => "padding-top:"+((61 - getHeight(thumbnail))/2).to_s+"px;" + "padding-left: "+ ((57-getWidth(thumbnail))/2).to_s + "px") %>
 	<% end %>
 </div>
