@@ -1,0 +1,255 @@
+
+
+Started GET "/" for 127.0.0.1 at Thu Oct 04 15:38:14 +0200 2012
+Connecting to database specified by database.yml
+Processing by HomeController#index as HTML
+  Rendered home/_menu.html.erb (2.3ms)
+  Rendered home/_footer.html.erb (0.2ms)
+  Rendered home/index.html.erb within layouts/application (43.8ms)
+Compiled home.css  (150ms)  (pid 17529)
+Compiled application.css  (157ms)  (pid 17529)
+Compiled jquery.js  (4ms)  (pid 17529)
+Compiled jquery_ujs.js  (0ms)  (pid 17529)
+Compiled home.js  (58ms)  (pid 17529)
+Compiled slides.jquery.js  (0ms)  (pid 17529)
+Compiled application.js  (143ms)  (pid 17529)
+Completed 200 OK in 440ms (Views: 439.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /application.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /jquery.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /home.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /home.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /header.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/frontpage_slideshow/1.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /frontpage_slideshow/1.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/frontpage_slideshow/5.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /frontpage_slideshow/5.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/frontpage_slideshow/4.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /frontpage_slideshow/4.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/frontpage_slideshow/3.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /frontpage_slideshow/3.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/frontpage_slideshow/2.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /frontpage_slideshow/2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/frontpage_slideshow/6.jpg" for 127.0.0.1 at Thu Oct 04 15:38:15 +0200 2012
+Served asset /frontpage_slideshow/6.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/portofolio" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Processing by HomeController#portofolio as HTML
+  Rendered home/_menu.html.erb (1.0ms)
+  Rendered home/_footer.html.erb (0.0ms)
+  Rendered home/portofolio.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:17 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/forside_commercialwork.jpg" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Served asset /gallery/Commercial%20work/forside_commercialwork.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gallery/Dance/forside_dance.jpg" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Served asset /gallery/Dance/forside_dance.jpg - 304 Not Modified (43ms)
+
+
+Started GET "/assets/gallery/People/forside_people.jpg" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Served asset /gallery/People/forside_people.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gallery/Fashion/forside_fashion.jpg" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Served asset /gallery/Fashion/forside_fashion.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gallery/Personal%20work/forside_personalwork.jpg" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Served asset /gallery/Personal%20work/forside_personalwork.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Served asset /header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/gallery?path=app/assets/images/gallery/Commercial%20work" for 127.0.0.1 at Thu Oct 04 15:38:18 +0200 2012
+Processing by HomeController#_gallery as HTML
+  Parameters: {"path"=>"app/assets/images/gallery/Commercial work"}
+  Rendered home/_gallery.html.erb within layouts/application (176.0ms)
+Completed 200 OK in 182ms (Views: 181.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/commercialwork.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/commercialwork.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/IselinJansen_modul3_14.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/IselinJansen_modul3_14.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/IselinJansen_modul3_13.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/IselinJansen_modul3_13.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/Gaffel-0616.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/Gaffel-0616.jpg - 304 Not Modified (6ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/IselinJansen_modul3_3.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/IselinJansen_modul3_3.jpg - 304 Not Modified (55ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/IselinJansen_modul3_4.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/IselinJansen_modul3_4.jpg - 304 Not Modified (10ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/IselinJansen_modul3_5.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/IselinJansen_modul3_5.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/IselinJansen_modul3_7.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/IselinJansen_modul3_7.jpg - 304 Not Modified (11ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/PU_IselinJansen_repotasje2.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/PU_IselinJansen_repotasje2.jpg - 304 Not Modified (9ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/PU_IselinJansen_repotasje3.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/PU_IselinJansen_repotasje3.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/arrow-prev.png" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /arrow-prev.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/arrow-next.png" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /arrow-next.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/commercialwork.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/commercialwork.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/Gaffel-0616.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/Gaffel-0616.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/IselinJansen_modul3_13.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/IselinJansen_modul3_13.jpg - 304 Not Modified (8ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/IselinJansen_modul3_14.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/IselinJansen_modul3_14.jpg - 304 Not Modified (7ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/IselinJansen_modul3_3.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/IselinJansen_modul3_3.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/IselinJansen_modul3_4.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/IselinJansen_modul3_4.jpg - 304 Not Modified (46ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/IselinJansen_modul3_5.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/IselinJansen_modul3_5.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/IselinJansen_modul3_7.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/IselinJansen_modul3_7.jpg - 304 Not Modified (4ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/PU_IselinJansen_repotasje2.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/PU_IselinJansen_repotasje2.jpg - 304 Not Modified (5ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/thumbnails/PU_IselinJansen_repotasje3.jpg" for 127.0.0.1 at Thu Oct 04 15:38:19 +0200 2012
+Served asset /gallery/Commercial%20work/thumbnails/PU_IselinJansen_repotasje3.jpg - 304 Not Modified (4ms)
