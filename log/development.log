@@ -13086,3 +13086,621 @@ Served asset /gallery/Commercial%20work/thumbnails/PU_IselinJansen_repotasje3.jp
 
 Started GET "/assets/gallery/Commercial%20work/thumbnails/commercialwork.jpg" for 127.0.0.1 at Sun Oct 07 19:00:14 +0200 2012
 Served asset /gallery/Commercial%20work/thumbnails/commercialwork.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/portofolio" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Processing by HomeController#portofolio as HTML
+  Rendered home/_menu.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/portofolio.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 7ms (Views: 7.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/forside_commercialwork.jpg" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /gallery/Commercial%20work/forside_commercialwork.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Dance/forside_dance.jpg" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /gallery/Dance/forside_dance.jpg - 200 OK (53ms)
+
+
+Started GET "/assets/gallery/People/forside_people.jpg" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /gallery/People/forside_people.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/forside_fashion.jpg" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/forside_fashion.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/gallery/Personal%20work/forside_personalwork.jpg" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /gallery/Personal%20work/forside_personalwork.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/email_adress.png" for 127.0.0.1 at Sun Oct 07 19:04:54 +0200 2012
+Served asset /email_adress.png - 304 Not Modified (0ms)
+
+
+Started GET "/gallery?path=app/assets/images/gallery/Fashion%20and%20beauty" for 127.0.0.1 at Sun Oct 07 19:04:55 +0200 2012
+Processing by HomeController#_gallery as HTML
+  Parameters: {"path"=>"app/assets/images/gallery/Fashion and beauty"}
+  Rendered home/_gallery.html.erb within layouts/application (334.0ms)
+Completed 200 OK in 338ms (Views: 337.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/1920.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/1920.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/1980.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/1980.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/43569_oppg5_nr2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/43569_oppg5_nr2.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/1950.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/1950.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/4_3.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/4_3.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/Fashionshoot_Iselinversjon.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/Fashionshoot_Iselinversjon.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/IselinJansen_9.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/IselinJansen_9.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/Maria.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/Maria.jpg - 200 OK (13ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad2.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad4.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad4.jpg - 200 OK (12ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad5.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad5.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad6.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad6.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du1.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du1.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du2.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du3.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du3.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du4.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du4.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/fashion.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/fashion.jpg - 200 OK (9ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/fashionshoot_Iselinversjon2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/fashionshoot_Iselinversjon2.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ida1.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ida1.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ida2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ida2.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ida3.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ida3.jpg - 200 OK (11ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ingridemma2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ingridemma2.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/mbeauty.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/mbeauty.jpg - 200 OK (10ms)
+
+
+Started GET "/assets/arrow-prev.png" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /arrow-prev.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/arrow-next.png" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /arrow-next.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/1920.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/1920.jpg - 304 Not Modified (3ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/1950.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/1950.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/1980.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/1980.jpg - 200 OK (6ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/4_3.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/4_3.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/43569_oppg5_nr2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/43569_oppg5_nr2.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/Fashionshoot_Iselinversjon.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/Fashionshoot_Iselinversjon.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/IselinJansen_9.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/IselinJansen_9.jpg - 200 OK (4ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/Maria.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/Maria.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad2.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad4.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad4.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad5.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad5.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad6.jpg" for 127.0.0.1 at Sun Oct 07 19:04:56 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad6.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du1.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du1.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du2.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du3.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du3.jpg - 200 OK (7ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du4.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du4.jpg - 200 OK (8ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/fashion.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/fashion.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/fashionshoot_Iselinversjon2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/fashionshoot_Iselinversjon2.jpg - 200 OK (5ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ida1.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ida1.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ida2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ida2.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ida3.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ida3.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ingridemma2.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ingridemma2.jpg - 200 OK (3ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/mbeauty.jpg" for 127.0.0.1 at Sun Oct 07 19:04:57 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/mbeauty.jpg - 200 OK (3ms)
+
+
+Started GET "/" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Processing by HomeController#index as HTML
+  Rendered home/_menu.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 38ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email_adress.png" for 127.0.0.1 at Sun Oct 07 19:05:13 +0200 2012
+Served asset /email_adress.png - 304 Not Modified (0ms)
+
+
+Started GET "/portofolio" for 127.0.0.1 at Sun Oct 07 19:05:16 +0200 2012
+Processing by HomeController#portofolio as HTML
+  Rendered home/_menu.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.1ms)
+  Rendered home/portofolio.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Oct 07 19:05:16 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:16 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Oct 07 19:05:16 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:16 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Commercial%20work/forside_commercialwork.jpg" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /gallery/Commercial%20work/forside_commercialwork.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Dance/forside_dance.jpg" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /gallery/Dance/forside_dance.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/forside_fashion.jpg" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/forside_fashion.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/People/forside_people.jpg" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /gallery/People/forside_people.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Personal%20work/forside_personalwork.jpg" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /gallery/Personal%20work/forside_personalwork.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/header.jpg" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /header.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/email_adress.png" for 127.0.0.1 at Sun Oct 07 19:05:17 +0200 2012
+Served asset /email_adress.png - 304 Not Modified (0ms)
+
+
+Started GET "/gallery?path=app/assets/images/gallery/Fashion%20and%20beauty" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Processing by HomeController#_gallery as HTML
+  Parameters: {"path"=>"app/assets/images/gallery/Fashion and beauty"}
+  Rendered home/_gallery.html.erb within layouts/application (322.1ms)
+Completed 200 OK in 326ms (Views: 325.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.css?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /home.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/slides.jquery.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /slides.jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/home.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /home.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/1920.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/1920.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/1950.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/1950.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/1980.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/1980.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/43569_oppg5_nr2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/43569_oppg5_nr2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/4_3.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/4_3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/Fashionshoot_Iselinversjon.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/Fashionshoot_Iselinversjon.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/IselinJansen_9.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/IselinJansen_9.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/Maria.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/Maria.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad4.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad4.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad5.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad5.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ad6.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ad6.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du1.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du1.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du3.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/du4.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/du4.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/fashion.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/fashion.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/fashionshoot_Iselinversjon2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/fashionshoot_Iselinversjon2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ida1.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ida1.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ida2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ida2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ida3.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ida3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/ingridemma2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/ingridemma2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/mbeauty.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/mbeauty.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/1920.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/1920.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/1950.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/1950.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/1980.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/1980.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/43569_oppg5_nr2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/43569_oppg5_nr2.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/4_3.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/4_3.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/Fashionshoot_Iselinversjon.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/Fashionshoot_Iselinversjon.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/IselinJansen_9.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/IselinJansen_9.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/Maria.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/Maria.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad4.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad4.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad5.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad5.jpg - 304 Not Modified (1ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ad6.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ad6.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du1.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du1.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du3.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/du4.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/du4.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/fashion.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/fashion.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/fashionshoot_Iselinversjon2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/fashionshoot_Iselinversjon2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ida1.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ida1.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ida2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ida2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ida3.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ida3.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/ingridemma2.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/ingridemma2.jpg - 200 OK (0ms)
+
+
+Started GET "/assets/gallery/Fashion%20and%20beauty/thumbnails/mbeauty.jpg" for 127.0.0.1 at Sun Oct 07 19:05:19 +0200 2012
+Served asset /gallery/Fashion%20and%20beauty/thumbnails/mbeauty.jpg - 200 OK (0ms)
