@@ -94,7 +94,7 @@ $(document).ready(function() {
 							<tr>
 							<% col = 0 %>
 							<% rows = 1 %>
-							<% @gallery.each do |folder|%>
+							<% @gallery.sort.each do |folder|%>
 								<td><a href="#dialog" name="modal" id="<%= folder %>" style="text-decoration: none">
 								<% galImg = nil %>
 								<% galImgFolder = Dir[folder+"/*"].map %>

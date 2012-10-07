@@ -35,7 +35,11 @@ $(document).ready(function(){
 	
 	$('.pagination li').css('width', squareSide);
 	$('.pagination li').css('height', squareSide);
-	$('.pagination').css('width', (squareSide + parseInt($('.pagination li').css('margin'), 10) + 2) * numberOfChildren);
+	if (isNaN((squareSide + parseInt($('.pagination li').css('margin'), 10) + 2) * numberOfChildren)){
+		$('.pagination').css('width', (squareSide + 1 + 2) * numberOfChildren);
+	} else {
+		$('.pagination').css('width', (squareSide + parseInt($('.pagination li').css('margin'), 10) + 2) * numberOfChildren);
+	}
 	
 	//replacing pictures in pagination
 	$('.pagination li').each(function(e){
@@ -50,7 +54,7 @@ $(document).ready(function(){
 	<div id="windowFrame">
 		<div id="gallery">
 			<div class="gallery_container">
-				<% @images.each do |image|%>
+				<% @images.sort.each do |image|%>
 					<% if image.exclude?("forside_") && image.exclude?("thumbnails") %>
 						<div>
 							<%= image_tag(image, :alt => "image", :style => "margin-top:"+((420 - getHeight(image))/2).to_s+"px;" + "margin-left: "+ ((595-getWidth(image))/2).to_s + "px") %>
@@ -64,7 +68,7 @@ $(document).ready(function(){
 	</div>
 </div>
 <div class="thumbnails" style="display: none">
-	<% @thumbnails.each do |thumbnail|%>
+	<% @thumbnails.sort.each do |thumbnail|%>
 		<%= image_tag(thumbnail, :alt => "thumbnail", :style => "padding-top:"+((61 - getHeight(thumbnail))/2).to_s+"px;" + "padding-left: "+ ((57-getWidth(thumbnail))/2).to_s + "px") %>
 	<% end %>
 </div>
