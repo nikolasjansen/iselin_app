@@ -30,7 +30,7 @@ end
 
 gem 'jquery-rails'
 
-gem 'rmagick'
+gem 'rmagick', '2.13.2'
 gem 'heroku'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
